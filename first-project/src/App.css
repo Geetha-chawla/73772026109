@@ -1,0 +1,143 @@
+.headline{
+  color: #000;
+  text-align: center;
+  font-size: 35px;
+}
+
+.App-header{
+  background-image: url(imagestrain.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 50%;
+}
+.booking{
+  background-color: rgba(240, 248, 255, 0.427);
+}
+.booking .heading-title{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.booking .book-form{
+  padding: 1rem;
+  background: var(--light-bg);
+  color: rgb(17, 17, 18);
+}
+
+.booking .book-form .flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox{
+  flex: 1 1 41rem;
+  font-size: 1rem;
+}
+
+.booking .book-form .flex .inputBox input{
+  width: 85%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1rem;
+  color: var(--light-black);
+  text-transform: none;
+  margin-top: 1.5rem;
+  border: var(--border);
+}
+
+.booking .book-form .flex .inputBox input:focus{
+  background: var(--light-black);
+  color: black;
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+  color: var(--light-black);
+}
+
+.booking .book-form .flex .inputBox span{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.booking .book-form .btn{
+  margin-top: 2.5rem;
+  width: 30%;
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  padding-left: 25px;
+  margin-left: 30%;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #cfd5e1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.table-wrap {
+  max-width: 800px;
+  margin: 80px auto;
+  overflow-x: auto;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size:18px;
+  text-transform:capitalize;
+}
+th{
+    background: #000000d6;
+    color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+  white-space: nowrap;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #8ceb69cc;
+    color: #000;
+    font-weight: 500;
+}
+
+.box-wrap {
+  padding: 0px 16px;
+}
